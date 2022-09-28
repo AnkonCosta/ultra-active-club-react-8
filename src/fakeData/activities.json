@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
+        "name": "ULTRABOOST 22 SHOES",
+        "img": "/images/codimg.jpg",
+        "age": "25-30",
+        "time": 30
+    },
+    {
+        "id": "2",
+        "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
+        "name": "Cycling",
+        "img": "/images/cycling.jpg",
+        "age": "25-30",
+        "time": 30
+    },
+    {
+        "id": "3",
+        "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
+        "name": "Football",
+        "img": "/images/football.jpg",
+        "age": "25-30",
+        "time": 30
+    },
+    {
+        "id": "4",
+        "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
+        "name": "Gym",
+        "img": "/images/gym.jpg",
+        "age": "25-30",
+        "time": 30
+    },
+    {
+        "id": "5",
+        "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
+        "name": "Prayer",
+        "img": "/images/prayer.jpg",
+        "age": "25-30",
+        "time": 30
+    },
+    {
+        "id": "6",
+        "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
+        "name": "Reading Boooks",
+        "img": "/images/reading.jpg",
+        "age": "25-30",
+        "time": 30
+    }
+]
