@@ -1,0 +1,36 @@
+.all-info {
+    position: sticky;
+    top: 0;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.break-btn {
+    background-color: #7FFFD4;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.break-btn button {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.activity-time {
+    background-color: aquamarine;
+    padding: 20px 60px;
+    border-radius: 10px;
+}
+
+.activities-time {
+    padding-right: 40px;
+}
