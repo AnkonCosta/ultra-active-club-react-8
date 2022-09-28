@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Break from '../Break/Break';
 import './About.css'
 const About = (props) => {
@@ -7,6 +7,8 @@ const About = (props) => {
     for (const activity of details) {
         time = time + activity.time;
     };
+
+
 
 
     return (
@@ -25,7 +27,7 @@ const About = (props) => {
             <div>
                 <h3>Add a Break</h3>
                 <div className='break-btn'>
-                    <Break></Break>
+                    <Break ></Break>
                 </div>
 
             </div>

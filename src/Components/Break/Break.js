@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Break = () => {
+const Break = (props) => {
 
     const options = [
         { text: 10 },
@@ -9,12 +9,9 @@ const Break = () => {
         { text: 40 },
     ];
 
-    const [selected, setSelected] = useState([]);
+    const { handleChange } = props;
 
-    const handleChange = (select) => {
-        const newText = [...selected, select]
-        setSelected(newText)
-    };
+
 
     let text = 0;
     // for (const text of option)
