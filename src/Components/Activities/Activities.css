@@ -31,3 +31,27 @@
     border-radius: 25px;
     padding-right: 10px;
 }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 0px 10px 10px;
+        background-color: rgb(245, 239, 239);
+
+    }
+
+    .activities-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 0 40px 20px;
+    }
+
+
+
+}

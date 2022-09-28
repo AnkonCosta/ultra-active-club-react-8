@@ -10,12 +10,21 @@ const Break = () => {
     ];
 
     const [selected, setSelected] = useState([]);
-    let text = 0;
-    const handleChange = () => {
-        text = options.text;
+
+    const handleChange = (select) => {
+        const newText = [...selected, select]
+        setSelected(newText)
     };
+
+    let text = 0;
+    // for (const text of option)
+
     return (
         <div>
+            {
+                options.map(option => <button onClick={() => handleChange(option)}>{option.text}</button>)
+            }
+
         </div>
     );
 };
