@@ -1,0 +1,13 @@
+.activity-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn-add {
+    color: white;
+    background-color: #BB2D3B;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+}

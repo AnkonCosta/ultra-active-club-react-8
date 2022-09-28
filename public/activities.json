@@ -3,7 +3,7 @@
         "id": "1",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
         "name": "ULTRABOOST 22 SHOES",
-        "img": "/images/codimg.jpg",
+        "img": "https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?size=626&ext=jpg&ga=GA1.2.800180060.1661101819",
         "age": "25-30",
         "time": 30
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
         "name": "Cycling",
-        "img": "/images/cycling.jpg",
+        "img": "https://img.freepik.com/free-photo/cyclist-sunny-day-bike-adventure-travel-photo_1150-7513.jpg?size=626&ext=jpg&ga=GA1.2.800180060.1661101819",
         "age": "25-30",
         "time": 30
     },
@@ -19,7 +19,7 @@
         "id": "3",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
         "name": "Football",
-        "img": "/images/football.jpg",
+        "img": "https://img.freepik.com/free-photo/male-soccer-football-player-training-action-isolated-gradient-studio-neon-light_155003-15990.jpg?w=740&t=st=1664391390~exp=1664391990~hmac=b423732c7dd382bf39f105fcda971ac1c4ed58f6f24e5144f3e80df90db1b821",
         "age": "25-30",
         "time": 30
     },
@@ -27,7 +27,7 @@
         "id": "4",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
         "name": "Gym",
-        "img": "/images/gym.jpg",
+        "img": "https://img.freepik.com/free-photo/concept-power-strength-healthy-lifestyle-sport-powerful-attractive-muscular-man-gym_155003-4993.jpg?size=626&ext=jpg&ga=GA1.2.800180060.1661101819",
         "age": "25-30",
         "time": 30
     },
@@ -35,7 +35,7 @@
         "id": "5",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
         "name": "Prayer",
-        "img": "/images/prayer.jpg",
+        "img": "https://img.freepik.com/free-photo/priest-reading-from-bible_23-2149316012.jpg?w=740&t=st=1664391484~exp=1664392084~hmac=37eaf80f1f38158f6f2108494d21a93dcd4af98f40a68f53727cc6b3b17243cf",
         "age": "25-30",
         "time": 30
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.",
         "name": "Reading Boooks",
-        "img": "/images/reading.jpg",
+        "img": "https://img.freepik.com/free-photo/full-shot-woman-reading-home_23-2149073184.jpg?size=626&ext=jpg&ga=GA1.2.800180060.1661101819",
         "age": "25-30",
         "time": 30
     }
