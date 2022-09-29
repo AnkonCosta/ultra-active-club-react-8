@@ -8,7 +8,16 @@ const About = (props) => {
         time = time + activity.time;
     };
 
+    // brealkkk\
 
+
+    const [message, setMessage] = useState([0]);
+
+    // let breakTime;
+    const handleClick = event => {
+
+        setMessage((event.target.innerText));
+    };
 
 
     return (
@@ -27,14 +36,14 @@ const About = (props) => {
             <div>
                 <h3>Add a Break</h3>
                 <div className='break-btn'>
-                    <Break ></Break>
+                    <Break handleClick={handleClick}></Break>
                 </div>
 
             </div>
             <h3>Activities Details</h3>
             <h5 className='activity-time'> <span className='activities-time'>Activities Time </span> {time} </h5>
 
-            <h5 className='activity-time'> <span className='activities-time'>Break Time </span> <span id='break' >0</span> </h5>
+            <h5 className='activity-time'> <span className='activities-time'>Break Time </span> {message}  </h5>
         </div>
     );
 };

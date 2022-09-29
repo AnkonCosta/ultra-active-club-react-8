@@ -1,27 +1,14 @@
 import React, { useState } from 'react';
 
 const Break = (props) => {
-
-    const options = [
-        { text: 10 },
-        { text: 20 },
-        { text: 30 },
-        { text: 40 },
-    ];
-
-    const { handleChange } = props;
-
-
-
-    let text = 0;
-    // for (const text of option)
+    const { handleClick } = props;
 
     return (
         <div>
-            {
-                options.map(option => <button onClick={() => handleChange(option)}>{option.text}</button>)
-            }
-
+            <button onClick={handleClick}>10</button>
+            <button onClick={handleClick}>20</button>
+            <button onClick={handleClick}>30</button>
+            <button onClick={handleClick}>40</button>
         </div>
     );
 };
