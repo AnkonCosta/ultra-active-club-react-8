@@ -4,11 +4,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Toast() {
-    const notify = () => toast("Wow so easy!");
+    const notify = () => toast("Congratulations, your activity is now complete.");
 
     return (
         <div>
-            <button onClick={notify}>Notify!</button>
+            <button onClick={notify}>Activities Completed!</button>
             <ToastContainer />
         </div>
     );

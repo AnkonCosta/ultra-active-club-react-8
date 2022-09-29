@@ -47,7 +47,6 @@ const About = (props) => {
             <h5 className='activity-time'> <span className='activities-time'>Break Time </span> <span>{message} min</span> </h5>
 
             <div className='completed'>
-                <button>Activities Completed</button>
                 <Toast></Toast>
             </div>
         </div>
