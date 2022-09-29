@@ -32,5 +32,13 @@
 }
 
 .activities-time {
-    padding-right: 40px;
+    padding-right: 20px;
+}
+
+.completed button {
+    color: white;
+    border: none;
+    background-color: #BB2D3B;
+    padding: 10px 20px;
+    align-items: center;
 }

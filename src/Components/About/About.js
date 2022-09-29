@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Break from '../Break/Break';
+import Toast from '../Toast/Toast';
 import './About.css'
 const About = (props) => {
     const { details } = props;
@@ -41,9 +42,14 @@ const About = (props) => {
 
             </div>
             <h3>Activities Details</h3>
-            <h5 className='activity-time'> <span className='activities-time'>Activities Time </span> {time} </h5>
+            <h5 className='activity-time'> <span className='activities-time'>Activities Time </span> <span>{time} min</span> </h5>
 
-            <h5 className='activity-time'> <span className='activities-time'>Break Time </span> {message}  </h5>
+            <h5 className='activity-time'> <span className='activities-time'>Break Time </span> <span>{message} min</span> </h5>
+
+            <div className='completed'>
+                <button>Activities Completed</button>
+                <Toast></Toast>
+            </div>
         </div>
     );
 };
