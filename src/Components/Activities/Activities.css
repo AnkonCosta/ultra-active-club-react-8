@@ -4,6 +4,15 @@
     padding: 0px 0px 60px 120px;
     background-color: rgb(245, 239, 239);
 
+
+}
+
+.font {
+    color: #BB2D3B;
+}
+
+.top {
+    padding-left: 60px;
 }
 
 .activities-container {

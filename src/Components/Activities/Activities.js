@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPerson } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react';
 import About from '../About/About';
 import Activity from '../Activity/Activity';
@@ -24,7 +26,10 @@ const Activities = () => {
         <div className='main-container'>
             <div  >
                 <div>
-                    <h1>Ankon Daily Activities</h1>
+                    <div className='font'>
+                        <h1 className='top'><FontAwesomeIcon icon={faPerson}></FontAwesomeIcon> Ankon Daily Activities</h1>
+                    </div>
+                    <h3 className='top'>Select Today's Activity</h3>
                     <div className='activities-container'>
                         {
                             activities.map(activity => <Activity

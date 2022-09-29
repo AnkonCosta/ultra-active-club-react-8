@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { addToDb } from '../../utilities/fakedb';
 import Break from '../Break/Break';
 import Toast from '../Toast/Toast';
 import './About.css'
@@ -13,11 +14,15 @@ const About = (props) => {
 
 
     const [message, setMessage] = useState([0]);
+    useEffect(() => {
+
+    }, [message])
 
     // let breakTime;
     const handleClick = event => {
 
         setMessage((event.target.innerText));
+        addToDb(message)
     };
 
 
@@ -31,6 +36,11 @@ const About = (props) => {
                         <h5>Ankon Costa <br /><p>Dhaka, Bangladesh</p> </h5>
                     </div>
 
+                </div>
+                <div>
+                    <p>I am Ankon Costa, a Professional web developer, specialized in React js.</p>
+                    <a style={{ textDecoration: 'none', color: '#BB2D3B' }} href="tel:01777814875">01777814875</a> <br />
+                    <a style={{ textDecoration: 'none', color: '#BB2D3B' }} href="mailto:admin@gmail.com">admin@gmail.com</a>
                 </div>
             </div>
 
