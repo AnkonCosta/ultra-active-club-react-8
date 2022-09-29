@@ -1,13 +1,20 @@
-// use local storage to manage cart data
-const addToDb = id => {
-    localStorage.setItem('cart',)
+const addToLs = event => {
+    const time = event.target.innerText;
+    const storedTime = localStorage.getItem('break')
+    if (storedTime) {
+        localStorage.setItem('break', JSON.stringify(time))
+    }
+    else {
+        localStorage.setItem('break', JSON.stringify(time))
+    }
 }
 
-
-
-
-
-
-export {
-    addToDb,
+const getStoredTime = () => {
+    let addTime = [];
+    const storedTime = localStorage.getItem('break')
+    if (storedTime) {
+        addTime = JSON.parse(storedTime)
+    }
+    return addTime;
 }
+export { addToLs, getStoredTime }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { addToDb } from '../../utilities/fakedb';
+import { addToDb, addToLs, getStoredTime } from '../../utilities/fakedb';
 import Break from '../Break/Break';
 import Toast from '../Toast/Toast';
 import './About.css'
@@ -15,14 +15,17 @@ const About = (props) => {
 
     const [message, setMessage] = useState([0]);
     useEffect(() => {
+        const storedTime = getStoredTime()
+        setMessage(storedTime)
+    }, [])
 
-    }, [message])
 
     // let breakTime;
     const handleClick = event => {
 
         setMessage((event.target.innerText));
-        addToDb(message)
+        addToLs(event)
+
     };
 
 
